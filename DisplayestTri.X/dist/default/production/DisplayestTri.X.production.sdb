@@ -1,0 +1,140 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"3 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\botoes.c
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+"9
+[v _S1 S1 `(i  1 e 2 0 ]
+"14
+[v _S0 S0 `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\contatores.c
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+"14
+[v _K1 K1 `(v  1 e 1 0 ]
+"19
+[v _K2 K2 `(v  1 e 1 0 ]
+"24
+[v _K3 K3 `(v  1 e 1 0 ]
+"29
+[v _K1status K1status `(i  1 e 2 0 ]
+"4 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"9 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\display.c
+[v _display7seg_init display7seg_init `(v  1 e 1 0 ]
+"16
+[v _display7seg display7seg `(v  1 e 1 0 ]
+"8 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"228 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S100 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369
+[u S109 . 1 `S100 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES109  1 e 1 @8 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S79 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S88 . 1 `S79 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES88  1 e 1 @136 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\display.c
+[v _vetor vetor `[16]uc  1 e 16 0 ]
+"8 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"11
+[v main@estado estado `i  1 a 2 8 ]
+"10
+[v main@cont cont `i  1 a 2 6 ]
+"12
+[v main@t t `i  1 a 2 4 ]
+"73
+} 0
+"9 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\display.c
+[v _display7seg_init display7seg_init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"16
+[v _display7seg display7seg `(v  1 e 1 0 ]
+{
+[v display7seg@c c `i  1 p 2 0 ]
+"19
+} 0
+"4 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `i  1 p 2 0 ]
+"11
+} 0
+"4 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\contatores.c
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+{
+"12
+} 0
+"3 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\botoes.c
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+{
+"7
+} 0
+"9
+[v _S1 S1 `(i  1 e 2 0 ]
+{
+"12
+} 0
+"14
+[v _S0 S0 `(i  1 e 2 0 ]
+{
+"17
+} 0
+"24 C:\Users\20185092\MPLABXProjects\displayestTri\DisplayestTri.X\contatores.c
+[v _K3 K3 `(v  1 e 1 0 ]
+{
+[v K3@estado estado `i  1 p 2 0 ]
+"27
+} 0
+"19
+[v _K2 K2 `(v  1 e 1 0 ]
+{
+[v K2@estado estado `i  1 p 2 0 ]
+"22
+} 0
+"29
+[v _K1status K1status `(i  1 e 2 0 ]
+{
+"32
+} 0
+"14
+[v _K1 K1 `(v  1 e 1 0 ]
+{
+[v K1@estado estado `i  1 p 2 0 ]
+"17
+} 0
